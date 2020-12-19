@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="index.css">
+    <title>第五週 - 後台版型</title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3 bg-color-primary p-0">   
+            <h1 class="py-4 pl-4"><a href="index.html" class="logo">ANSWER</a></h1>
+            <nav class="navbar p-0 text-color-secondary">
+                <ul class="p-0">
+                    <li class="list-unstyled pb-4 "><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">insert_chart</span>
+                        <h4 class="h4 fw-b">Dashboard</h4>
+                    </a></li>
+                    <li class="list-unstyled pb-4"><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">question_answer</span>
+                        <h4 class="h4 fw-b">Question</h4>
+                    </a></li>
+                    <li class="list-unstyled pb-4"><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">assignment</span>
+                        <h4 class="h4 fw-b">Assignment</h4>
+                    </a></li>
+                    <li class="list-unstyled pb-4"><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">video_library</span>
+                        <h4 class="h4 fw-b">Course</h4>
+                    </a></li>
+                    <li class="list-unstyled pb-4"><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">group</span>
+                        <h4 class="h4 fw-b">Admin</h4>
+                    </a></li>
+                    <li class="list-unstyled "><a href="#" class="pl-4 d-flex">
+                        <span class="material-icons icon mr-3">settings</span>
+                        <h4 class="h4 fw-b">Settings</h4>
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="d-flex pl-4">
+                <div class="mr-3"><img class="d-block img-fluid userpic" src="https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg" alt=""></div>
+                <div class="">
+                    <h4 class="h4 text-color-secondary fw-b mb-0">Andy Chen</h4>
+                    <p class="p1 text-color-seventh fw-rg">andy0401@mail.com</p>
+                </div>
+            </div>
+        </div>
+        <main class="col-9">
+            <div class="pagebar d-flex align-items-center py-4">
+                <h2 class="h2 text-color-secondary mr-4 fw-b">Assignment</h2>
+                <div class="dropdown mr-auto">
+                    <button class="btn btn-secondary dropdown-toggle h4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All Courses
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item h4" href="#">Course-1</a>
+                    <a class="dropdown-item h4" href="#">Course-2</a>
+                    <a class="dropdown-item h4" href="#">Course-3</a>
+                    </div>
+                </div> 
+                
+                <div class="">
+                    <a href=""><span class="material-icons">search</span></a>
+                    <a href=""><span class="material-icons ml-4">notifications_active</span></a>                   
+                </div>                    
+            </div>
+            
+
+
+            <div class="row">
+                <!--  左邊區塊 -->
+                <div class="col-5">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle h4 p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All (4)
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Chapter-1</a>
+                            <a class="dropdown-item" href="#">Chapter-2</a>
+                            <a class="dropdown-item" href="#">Chapter-3</a>
+                        </div>
+                    </div> 
+                    <!--  list group -->
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                            <div class="d-flex justify-content-between">
+                                <p class="p2 fw-rg">Chapter Assignment 2</p>
+                                <p class="p2 fw-rg">4 hrs ago</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h4 class="h4 fw-b">Please check this file…</h4>
+                                <p class="p2 fw-rg text-color-third">Emily Wang</p>
+                            </div>
+                        </a>
+
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                            <div class="d-flex justify-content-between">
+                                <p class="p2 fw-rg">Chapter Assignment 1</p>
+                                <p class="p2 fw-rg">12 hrs ago</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h4 class="h4 fw-b">My Homework</h4>
+                                <p class="p2 fw-rg text-color-third">David Xu</p>
+                            </div>
+                        </a>
+
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                            <div class="d-flex justify-content-between">
+                                <p class="p2 fw-rg">Final Assignment</p>
+                                <p class="p2 fw-rg">18 hrs ago</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h4 class="h4 fw-b">Have a problem with this…</h4>
+                                <p class="p2 fw-rg text-color-third">Tony Wei</p>
+                            </div>
+                        </a>
+
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+                            <div class="d-flex justify-content-between">
+                                <p class="p2 fw-rg">Final Assignment</p>
+                                <p class="p2 fw-rg">19 hrs ago</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h4 class="h4 fw-b">Did I do it right?</h4>
+                                <p class="p2 fw-rg text-color-third">Christina Lin</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 右邊區塊 -->
+                <div class="col-7">
+                    <p class="p2 text-right mb-4">2 comments</p>
+                    <!--     list group 內容切換-->
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <!--  card -->
+                        <div class="card">
+                          <div class="card-header d-flex justify-content-between align-items-center">
+                                <div class="">
+                                    <p class="p2 fw-rg">Chapter Assignment 2 / HTML&CSS</p>
+                                    <h4 class="h4 fw-b">Please check this file for me, thanks!</h4>
+                                </div>
+                                <span class="material-icons">more_vert</span>
+                          </div>
+                          <div class="card-body">
+                            <ul class="list-unstyled">
+                              <li class="media">
+                                <img src="https://hexschool.github.io/webLayoutTraining1st/week5/emilywang.jpeg" class="d-block img-fluid userpic mr-3" alt="...">
+                                <div class="media-body">                                  
+                                  <div class="mt-0 mb-1">
+                                    <h4 class="h4 fw-b">Emily Wang</h4>
+                                    <p class="p1 fw-rg text-color-third">10:38 AM (4 hours ago)</p>
+                                  </div>  
+                                  <p class="fw-rg">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="highlight">div</span> is bigger than the height of the <span class="highlight">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. 
+                                    <br>What is the gap or extra space below image?</p>   
+                                  
+                                  <div class="d-inline-flex py-2 px-3 bd-fifth bg-color-primary justify-content-center">
+                                    <span class="material-icons">attach_file</span>
+                                    <h4 class="h4 fw-b">HW-2-David.zip</h4>
+                                  </div>  
+                                </div>
+                              </li>
+                              <hr>
+                              <li class="media my-4">
+                                <img src="https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg" class="d-block img-fluid userpic mr-3" alt="...">
+                                <div class="media-body">                                    
+                                    <div class="mt-0 mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="">
+                                            <h4 class="h4 fw-b">Andy Chen (You)</h4>
+                                            <p class="p1 fw-rg text-color-sixth">13:24 AM (1 hours ago)</p>
+                                        </div>
+                                        <div class="">
+                                            <a href=""><span class="material-icons mr-4">star_outline</span></a>
+                                            <a href=""><span class="material-icons">edit</span></a>                                           
+                                        </div> 
+                                    </div>  
+                                    <p class="fw-rg">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. 
+                                        <br>
+                                        <br>
+                                        You can: 　
+                                        <br>
+                                        <br>
+                                        • adjust the <span class="highlight">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight">middle</span> ) or 　
+                                        <br>
+                                        • change the <span class="highlight">display</span> so it isn’t inline.
+                                    </p>   
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+                      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
+                      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--     button -->
+            <div class="mt-3 d-flex justify-content-center">
+                <div class="">
+                    <a class="btn" href="#" role="button">
+                        <span class="material-icons h4">keyboard_arrow_left</span>
+                    </a>
+                    <a class="btn" href="#" role="button">
+                        <span class="material-icons h4">keyboard_arrow_right</span>
+                    </a>                    
+                </div>
+
+                <div class="">                    
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#openMe">
+                        Mark as read
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="openMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <img class="d-block img-fluid" src="https://hexschool.github.io/webLayoutTraining1st/week5/emir.jpeg" alt="">
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="h4 fw-rg text-color-secondary mb-0">#1</h4>
+                                            <h4 class="h4 fw-rg text-color-secondary mb-0">Admin</h4>
+                                            <h2 class="h2 fw-b text-color-secondary mb-0">Emir Wicks</h2>
+                                            <p class="p1 fw-rg text-color-third mb-2">emir.wicks@mail.com</p>
+                                            <p class="p2 fw-rg text-color-secondary bg-color-primary d-inline-block p-1">verified</p>
+                                        </div>
+                                        <div class="col-1">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-eighth" data-dismiss="modal">Deactivate</button>
+                                    <button type="button" class="btn btn-primary">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input class="btn btn-primary" type="submit" value="Reply">                    
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+   
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+</html>

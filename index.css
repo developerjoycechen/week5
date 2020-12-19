@@ -1,0 +1,77 @@
+ .logo{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg);
+    width: 151px;
+    height: 40px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    word-spacing: nowrap;
+ }
+ .navbar li a:hover{
+    color: #2A8356;
+    border-left: 4px solid #2A8356;
+ }
+ .pagebar .btn-secondary{
+    background-color: #fff;
+    border: 0;
+ }
+ .pagebar .btn-secondary:hover{
+   color: #121212;
+ }
+ .list-group-item.active{
+   background-color:#EDF4EE;
+   border-color: #CDDDCD;
+   color: #121212;
+ }
+ .card-header{
+   background-color:#EDF4EE;
+   border-color: #CDDDCD;
+   color: #121212;
+ }
+ .btn-outline-primary{
+   color: #2A8356;
+   border-color: #2A8356;
+ }
+ .btn-outline-primary:hover{
+   color: #fff;
+   background-color: #2A8356;
+   border-color: #2A8356;
+ }
+ .btn-primary{
+   color: #fff;
+   background-color: #2A8356;
+   border-color: #2A8356;
+ }
+ .btn-primary:hover{
+   color: #2A8356;
+   background-color: #ffffff;
+   border-color: #2A8356;
+ }
+ .btn-secondary{
+   color: #121212;
+   background-color: #ffffff;
+   border-color: #ffffff;
+ }
+ .btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active{
+   color: #ffffff;
+   background-color: #2A8356;
+   border-color: #2A8356;
+ }
+ .btn-eighth{
+   color: #E3006E;
+   background-color: #ffffff;
+   border-color: #E3006E;
+ }
+ .btn-eighth:hover{
+   color: #ffffff;
+   background-color: #E3006E;
+   border-color: #E3006E;
+ }
+ .highlight{
+    color:#2A8356;
+    background-color:#EDF4EE;
+ }
+ .modal-footer{
+    border-color: #ffffff;
+ }
+

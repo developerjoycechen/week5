@@ -1,0 +1,82 @@
+/* 字級 */
+.h2{
+    font-size: 24px;
+}
+.h3{
+    font-size: 20px;
+}
+.h4{
+    font-size: 16px;
+}
+.p1{
+    font-size: 14px;
+}
+.p2{
+    font-size: 12px;
+}
+/* 背景顏色 */
+.bg-color-primary{
+    background-color:#EDF4EE;
+}
+.bg-color-secondary{
+    background-color:#121212;
+}
+.bg-color-third{
+    background-color:#666666;
+}
+.bg-color-fourth{
+    background-color:#2A8356;
+}
+.bg-color-fifth{
+    background-color:#CDDDCD;
+}
+.bg-color-sixth{
+    background-color:#707070;
+}
+.bg-color-seventh{
+    background-color:#9E9E9E;
+}
+.bg-color-seventh{
+    background-color:#9E9E9E;
+}
+.bg-color-eighth{
+    background-color:#E3006E;
+}
+/* 文字顏色 */
+.text-color-primary{
+    color: #EDF4EE;
+}
+.text-color-secondary{
+    color: #121212;
+}
+.text-color-third{
+    color: #666666;
+}
+.text-color-fourth{
+    color: #2A8356;
+}
+.text-color-fifth{
+    color: #CDDDCD;
+}
+.text-color-sixth{
+    color: #707070;
+}
+.text-color-seventh{
+    color: #9E9E9E;
+}
+.text-color-eighth{
+    color: #E3006E;
+}
+/* 字重 */
+.fw-rg{
+    font-weight: 400;
+}
+.fw-b{
+    font-weight: 700;
+}
+/* 外框線 */
+.bd-fifth{
+    border: 1px solid #CDDDCD;
+}
+
+
